@@ -19,10 +19,10 @@
                 <img src="images/img-profile.jpg" alt="Profile photo" class="profile__avatar">
                 <div class="profile__info">
                     <h1 class="profile__name">Widhi Pieradita</h1>
-                    <input type="button" class="profile__edit-button">
+                    <input type="button" class="profile__edit-button" value="&#160;">
                     <p class="profile__about">Web Developer</p>
                 </div>
-                <input type="button" class="profile__add-button">
+                <input type="button" class="profile__add-button" value="&#160;">
             </section>
             
             <section id="popup">
@@ -32,7 +32,7 @@
                         <input type="text" class="popup__input popup__input_name" placeholder="Name">
                         <input type="text" class="popup__input popup__input_about" placeholder="About me">
                         <button type="submit" class="popup__submit">Save</button>
-                        <input type="button" class="popup__close">
+                        <input type="button" class="popup__close" value="&#160;">
                     </div>
                 </form>
                 <form class="popup popup_add">
@@ -43,13 +43,12 @@
                         <input type="text" class="popup__input popup__input_url" placeholder="URL">
                         <p class="popup__valid-url">Please Input Image Address</p>
                         <button type="submit" class="popup__submit">Save</button>
-                        <input type="button" class="popup__close">
+                        <input type="button" class="popup__close" value="&#160;">
                     </div>
                 </form>
             </section>
             
-
-            <section class="cards"></section>
+            <div class="cards">
             <template id="template__cards">
                 <div class="card">
                     <img class="card__image">
@@ -59,13 +58,13 @@
                     </div>
                 </div>
             </template>
+            </div>
 
         </main>
         
         <footer class="footer">
             <p class="footer__copyright">&copy; Widhi Pieradita</p>
         </footer>
-    </div>
 
     <script src="scripts/script.js"></script>
 </body>
