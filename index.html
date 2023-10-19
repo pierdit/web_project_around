@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Around The U.S.</title>
+    <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body class="pages">
+        <header class="header">
+            <img src="images/logo.svg" alt="Around the u.s logo" class="logo">
+        </header>
+
+        <main id="main">
+            <section class="profile">
+                <img src="images/img-profile.jpg" alt="Profile photo" class="profile__avatar">
+                <div class="profile__info">
+                    <h1 class="profile__name">Widhi Pieradita</h1>
+                    <input type="button" class="profile__edit-button">
+                    <p class="profile__about">Web Developer</p>
+                </div>
+                <input type="button" class="profile__add-button">
+            </section>
+            
+            <section id="popup">
+                <form class="popup popup_edit">
+                    <div class="popup__container">
+                        <h2 class="popup__title">Edit profile</h2>
+                        <input type="text" class="popup__input popup__input_name" placeholder="Name">
+                        <input type="text" class="popup__input popup__input_about" placeholder="About me">
+                        <button type="submit" class="popup__submit">Save</button>
+                        <input type="button" class="popup__close">
+                    </div>
+                </form>
+                <form class="popup popup_add">
+                    <div class="popup__container">
+                        <h2 class="popup__title">New Place</h2>
+                        <input type="text" class="popup__input popup__input_title" placeholder="Title">
+                        <p class="popup__valid-title">Please Input Title</p>
+                        <input type="text" class="popup__input popup__input_url" placeholder="URL">
+                        <p class="popup__valid-url">Please Input Image Address</p>
+                        <button type="submit" class="popup__submit">Save</button>
+                        <input type="button" class="popup__close">
+                    </div>
+                </form>
+            </section>
+            
+
+            <section class="cards"></section>
+            <template id="template__cards">
+                <div class="card">
+                    <img class="card__image">
+                    <div class="card__menu">
+                        <h2 class="card__title"></h2>
+                        <div class="card__like-icon"></div>
+                    </div>
+                </div>
+            </template>
+
+        </main>
+        
+        <footer class="footer">
+            <p class="footer__copyright">&copy; Widhi Pieradita</p>
+        </footer>
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
