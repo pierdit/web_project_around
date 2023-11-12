@@ -14,7 +14,7 @@
             <img src="images/logo.svg" alt="Around the u.s logo" class="logo">
         </header>
 
-        <main id="main">
+        <main class="content">
             <section class="profile">
                 <img src="images/img-profile.jpg" alt="Profile photo" class="profile__avatar">
                 <div class="profile__info">
@@ -25,8 +25,8 @@
                 <input type="button" class="profile__add-button" value="&#160;">
             </section>
             
-            <section id="popup">
-                <form class="popup popup_edit">
+            <section class="popup">
+                <form class="popup_edit">
                     <div class="popup__container">
                         <h2 class="popup__title">Edit profile</h2>
                         <input type="text" class="popup__input popup__input_name" placeholder="Name">
@@ -35,29 +35,51 @@
                         <input type="button" class="popup__close" value="&#160;">
                     </div>
                 </form>
-                <form class="popup popup_add">
-                    <div class="popup__container">
-                        <h2 class="popup__title">New Place</h2>
-                        <input type="text" class="popup__input popup__input_title" placeholder="Title">
-                        <p class="popup__valid-title">Please Input Title</p>
-                        <input type="text" class="popup__input popup__input_url" placeholder="URL">
-                        <p class="popup__valid-url">Please Input Image Address</p>
-                        <button type="submit" class="popup__submit">Save</button>
-                        <input type="button" class="popup__close" value="&#160;">
-                    </div>
-                </form>
             </section>
             
             <div class="cards">
-            <template id="template__cards">
                 <div class="card">
-                    <img class="card__image">
+                    <img class="card__image" src="images/kirill-pershin-1556355-unsplash.png" alt="Pegunungan Gundul">
                     <div class="card__menu">
-                        <h2 class="card__title"></h2>
+                        <h2 class="card__title">Pegunungan Gundul</h2>
                         <div class="card__like-icon"></div>
                     </div>
                 </div>
-            </template>
+                <div class="card">
+                    <img class="card__image" src="images/kirill-pershin-1556355-unsplash (1).png" alt="Vanoise National Park">
+                    <div class="card__menu">
+                        <h2 class="card__title">Vanoise National Park</h2>
+                        <div class="card__like-icon"></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card__image" src="images/kirill-pershin-1404681-unsplash.png" alt="Danau Louise">
+                    <div class="card__menu">
+                        <h2 class="card__title">Danau Louise</h2>
+                        <div class="card__like-icon"></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card__image" src="images/kirill-pershin-1404681-unsplash (1).png" alt="Latemar">
+                    <div class="card__menu">
+                        <h2 class="card__title">Latemar</h2>
+                        <div class="card__like-icon"></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card__image" src="images/kirill-pershin-1088404-unsplash.png" alt="Lembah Yosemite">
+                    <div class="card__menu">
+                        <h2 class="card__title">Lembah Yosemite</h2>
+                        <div class="card__like-icon"></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card__image" src="images/kirill-pershin-1088404-unsplash (1).png" alt="Lago di Braies">
+                    <div class="card__menu">
+                        <h2 class="card__title">Lago di Braies</h2>
+                        <div class="card__like-icon"></div>
+                    </div>
+                </div>
             </div>
 
         </main>
