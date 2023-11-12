@@ -6,8 +6,8 @@ let editButton = profile.querySelector(".profile__edit-button");
 
 let popup = document.querySelector(".popup");
 let closeButton = popup.querySelector(".popup__close");
-let formElement = popup.querySelector(".popup_edit");
-let popupEdit = popup.querySelector(".popup_edit");
+let formElement = popup.querySelector(".popup__edit");
+let popupEdit = popup.querySelector(".popup__edit");
 let inputName = popupEdit.querySelector(".popup__input_name");
 let inputAbout = popupEdit.querySelector(".popup__input_about");
 
